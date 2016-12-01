@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="input1" HorizontalAlignment="Left" Text="0" Height="26" Margin="195,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139"/>
-        <TextBox x:Name="input2" HorizontalAlignment="Left" Text="0" Height="23" Margin="191,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Text="0" Height="26" Margin="195,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" />
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Text="0" Height="23" Margin="191,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" />
         <Button x:Name="Addition" Content="+" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="75" FontSize="15" Height="24" Click="Addition_Click">
             <Button.Effect>
                 <DropShadowEffect/>
@@ -35,10 +35,10 @@
             </Button.Effect>
         </Button>
         <Label x:Name="Equals" Content=" =" HorizontalAlignment="Left" Margin="237,224,0,0" VerticalAlignment="Top" Height="45" Width="46" FontSize="29" FontWeight="Bold"/>
-        <Label x:Name="Result" Content="Answer" Margin="120,269,110.4,-0.2" VerticalAlignment="Top" Width="288" Height="52" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30"/>
+        <Label x:Name="Result" Content="          Answer" Margin="120,269,110.4,-0.2" VerticalAlignment="Top" Width="288" Height="52" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30"/>
         <Button x:Name="button1" Content="M+" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top" Width="42" Height="41" Background="#FFB6D4FF" Click="button1_Click_1"/>
-        <Button x:Name="button2" Content="M-" HorizontalAlignment="Left" Margin="84,28,0,0" VerticalAlignment="Top" Width="41" Height="41" Background="#FFB6D4FF"/>
+        <Button x:Name="button2" Content="M-" HorizontalAlignment="Left" Margin="84,28,0,0" VerticalAlignment="Top" Width="41" Height="41" Background="#FFB6D4FF" Click="button2_Click_1"/>
         <Button x:Name="button3" Content="MR" HorizontalAlignment="Left" Margin="410,28,0,0" VerticalAlignment="Top" Width="41" Height="41" Background="#FFB6D4FF" Click="button3_Click_1"/>
-        <Button x:Name="button4" Content="MC" HorizontalAlignment="Left" Margin="467,28,0,0" VerticalAlignment="Top" Width="41" Height="41" Background="#FFB6D4FF"/>
+        <Button x:Name="button4" Content="MC" HorizontalAlignment="Left" Margin="462,28,0,0" VerticalAlignment="Top" Width="41" Height="41" Background="#FFB6D4FF" Click="button4_Click_1"/>
     </Grid>
 </Window>
