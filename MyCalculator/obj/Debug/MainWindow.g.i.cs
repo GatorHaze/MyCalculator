@@ -242,6 +242,12 @@ namespace Calculator {
             return;
             case 11:
             this.button2 = ((System.Windows.Controls.Button)(target));
+            
+            #line 40 "..\..\MainWindow.xaml"
+            this.button2.Click += new System.Windows.RoutedEventHandler(this.button2_Click_1);
+            
+            #line default
+            #line hidden
             return;
             case 12:
             this.button3 = ((System.Windows.Controls.Button)(target));
